@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Magic: Juego de cartas</title>
+</head>
+<body>
+	<h1>Tipos de cartas</h1>
+	<p>Aunque quien más quien menos ha tenido relación con Magic: The Gathering, lo cierto es que hay una importante parte de la población
+		que tiene una relación con este juego de cartas similar a ese restaurante de tu ciudad del que todo el mundo habla
+		y al que no has ido aún por mil razones. Es hora de poner remedio a eso y que empieces a echarle un vistazo en profundidad al juego, 
+		y más ahora que está disponible en PC y móviles gracias a Magic: Arena. </p>
+	<ul>
+		<li>Tierras
+			<ul>
+				<li>Llanura</li>
+				<li>Isla</li>
+				<li>Pantano</li>
+				<li>Montaña</li>
+				<li>Bosque</li>
+			</ul>
+		</li>
+		<li>Criaturas
+			<ul>
+				<li>Guerreros</li>
+				<li>Sicarios</li>
+				<li>Bestias</li>
+				<li>Monstruos</li>
+			</ul>
+		</li>
+		<li>Encantamientos
+			<ul>
+				<li>Local</li>
+				<li>Global</li>
+			</ul>
+		</li>
+		<li>Conjuros</li>
+		<li>Instántaneos</li>
+		<li>Artefactos
+			<ul>
+				<li>Legendario</li>
+				<li>Criatura</li>
+				<li>Equipo</li>
+				<li>Tierra</li>
+			</ul>
+		</li>
+		<li>Planewalkers</li>
+	</ul>					
+	<table cellpadding="10" cellspacing="10" border="1">
+		<caption>CARTAS DE MAGIC</caption>
+		<thead>
+			<tr>
+				<th colspan="3">MAGIC</th>
+			</tr>
+			<tr>
+				<th>CARTAS</th>
+				<th>TIPOS</th>
+				<th>IMAGEN</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th rowspan="5">TIERRAS</th>
+				<td>Llanura</td>	
+				<td><img src="./assets/images/magic-tierra-llanura.jpg" 
+					 alt="carta de tierra tipo llanura" 
+					 width="150"></td>
+			</tr>
+			<tr>
+				<td>Isla</td>
+				<td><img src="./assets/images/magic-tierra-isla.jpg" 
+					 alt="carta de tierra tipo isla"
+					 width="150"></td>
+			</tr>
+			<tr>
+				<td>Pantano</td>
+				<td><img src="./assets/images/magic-tierra-pantano.jpg" 
+					 alt="carta de tierra tipo pantano" 
+					 width="150"></td>
+			</tr>
+				<td>Montaña</td>
+				<td><img src="./assets/images/magic-tierra-montana.jpg" 
+					 alt="carta de tierra tipo montana" 
+					 width="150"></td>
+			</tr>
+			<tr>
+				<td>Bosque</td>
+				<td><img src="./assets/images/magic-tierra-bosque.jpg" 
+					 alt="carta de tierra tipo bosque" 
+					 width="150"></td>
+			</tr>
+			<tr>
+				<th rowspan="4">CRIATURAS</th>
+				<td>Guerreros</td>
+				<td><img src="./assets/images/magic-criatura-guerrero.jpg" 
+					 alt="carta de criatura tipo guerrero" 
+					 width="150"></td>
+			</tr>
+			<tr>
+				<td>Sicarios</td>
+				<td><img src="./assets/images/magic-criatura-sicario.jpg" 
+					 alt="carta de criatura tipo sicario" 
+					 width="150"></td>
+			</tr>
+			<tr>
+				<td>Bestias</td>
+				<td><img src="./assets/images/magic-criatura-bestia.jpg" 
+					 alt="carta de criatura tipo bestia" 
+					 width="150"></td>
+			</tr>
+			<tr>
+				<td>Monstruos</td>
+				<td><img src="./assets/images/magic-criatura-monstruo.jpg" 
+					 alt="carta de criatura tipo monstruo" 
+					 width="150"></td>
+			</tr>
+			<tr>
+				<th rowspan="2">ENCANTAMIENTOS</th>
+				<td>Local</td>
+				<td><img src="./assets/images/magic-encantamiento-local.jpg" 
+					 alt="carta de encantamiento tipo local" 
+					 width="150"></td>
+			</tr>
+			<tr>
+				<td>Global</td>
+				<td><img src="./assets/images/magic-encantamiento-global.jpg" 
+					 alt="carta de encantamiento tipo global" 
+					 width="150"></td>
+			</tr>
+			<tr>
+				<th>CONJUROS</th>
+				<td>No hay tipos</td>
+				<td><img src="./assets/images/magic-conjuro.jpg" 
+					 alt="carta de conjuro" 
+					 width="150"></td>
+			</tr>
+			<tr>
+				<th>INSTANTÁNEOS</th>
+				<td>No hay tipos</td>
+				<td><img src="./assets/images/magic-instantaneo.jpg" 
+					 alt="carta de instantaneo" 
+					 width="150"></td>
+			</tr>
+			<tr>
+				<th rowspan="4">ARTEFACTOS</th>
+				<td>Legendario</td>
+				<td><img src="./assets/images/magic-artefacto-legendario.jpg" 
+					 alt="carta de artefacto tipo legendario" 
+					 width="150"></td>
+			</tr>
+			<tr>
+				<td>Criatura</td>
+				<td><img src="./assets/images/magic-artefacto-criatura.jpg" 
+					 alt="carta de artefacto tipo criatura" 
+					 width="150"></td>
+			</tr>
+			<tr>
+				<td>Equipo</td>
+				<td><img src="./assets/images/magic-artefacto-equipo.jpg" 
+					 alt="carta de artefacto tipo equipo" 
+					 width="150"></td>
+			</tr>
+			<tr>
+				<td>Tierra</td>
+				<td><img src="./assets/images/magic-artefacto-tierra.jpg" 
+					 alt="carta de artefacto tipo tierra" 
+					 width="150"></td>
+			</tr>
+			<tr>
+				<th>PLANESWALKERS</th>
+				<td>No hay tipos</td>
+				<td><img src="./assets/images/magic-planeswalker.jpg" 
+					 alt="carta de planeswalker" 
+					 width="150"></td>
+			</tr>
+			<tr>
+				<td colspan="3">¡Síguenos en nuestras redes sociales!</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
+
+			
+
+			
+			

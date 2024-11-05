@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Mariscos Recio, la mar al mejor precio</title>
+    </head>
+    <body>
+        <img src="./assets/images/mariscos-recio.gif"
+             alt="Mariscos Recio">
+        <h1>Mariscos Recio</h1>
+            <p>La mar, al mejor precio.</p>
+            <ul>
+                <li><a href="./index.html">Página prinicpal</a></li>
+                <li><a href="./Catering.html">Catering</a></li>
+                <li><a href="./Contacto.html">Contacto</a></li>
+                <li><a href="./Marisco.html">Marisco</a></li>
+                <li><a href="./Pescado fresco.html">Pescado fresco</a></li>
+            </ul>
+
+            <h2>Contacto</h2>
+            <form method="post" action="mailto:miratu@quecosas.com?Subject=Mariscos%20Recio " enctype="text/plain"">
+                <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre">
+                <label for="email">Email:</label>
+                    <input type="text" name="email" id="email">
+                
+                <fieldset>
+                    <legend>Marque la casilla o casillas que le interesen:</legend>
+                    <label for="marisco">Marisco
+                        <input type="checkbox" name="intereses" id="marisco" value="Marisco">
+                    </label>
+                    <label for="pescado-fresco">Pescado fresco
+                        <input type="checkbox" name="intereses" id="pescado-fresco" value="Pescado fresco">
+                    </label>
+                    <label for="catering">Catering
+                        <input type="checkbox" name="intereses" id="catering" value="Catering">
+                    </label>                    
+                </fieldset>
+                <br>
+
+                <select name="provincia" id="provincia">
+                    <option value="Asturias">Asturias</option>
+                    <option value="Barcelona">Barcelona</option>
+                    <option value="Valladolid">Valladolid</option>
+                </select>
+                <br>
+
+                <textarea name="comentarios" id="comentarios">Sus comentarios</textarea>
+                <br>
+
+                <input type="reset" value="Reiniciar">
+                <input type="submit" value="Enviar">
+                <br>
+            </form>
+        <p>Copyright Mariscos Recio</p>
+    </body>
+</html>

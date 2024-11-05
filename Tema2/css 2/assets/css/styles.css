@@ -1,0 +1,51 @@
+h1 {
+  color: blue;
+}
+p {
+  color: green;
+}
+#primerParrafo {
+  color: orangered;
+}
+.primeraClase {
+  color: purple;
+}
+a {
+  color: orange;
+}
+h2[class] {
+  /*para todos los h2 que tengan cualquier clase*/
+  background-color: aquamarine;
+}
+a[target] {
+  /*para todos los links con target*/
+  color: green;
+}
+a[href="./index.html"] {
+  /*si el enlace lleva a index.html*/
+  color: maroon;
+}
+a[href$=".pdf"] {
+  /*si el enlace termina en .pdf - si en vez de $ es ^ es que empiece - si es * es que lo contenga*/
+  color: magenta;
+}
+li p {
+  /*todos los párrafos que están dentro de un li*/
+  color: red;
+}
+/*hay un párrafo que no es de color rojo porque ya tiene una etiqueta y tienen prioridad*/
+ul li,
+p strong {
+  color: blanchedalmond;
+  background-color: black;
+}
+p:first-child {
+  background-color: yellow;
+}
+p:last-child {
+  background-color: orange;
+}
+p:nth-child(2) {
+  /*even/odd tambien se puede*/
+  background-color: pink;
+}

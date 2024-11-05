@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Magic: Juego de cartas</title>
+</head>
+<body>
+	<h1>Tipos de cartas</h1>
+	<p>Aunque quien más quien menos ha tenido relación con Magic: The Gathering, lo cierto es que hay una importante parte de la población
+		que tiene una relación con este juego de cartas similar a ese restaurante de tu ciudad del que todo el mundo habla
+		y al que no has ido aún por mil razones. Es hora de poner remedio a eso y que empieces a echarle un vistazo en profundidad al juego, 
+		y más ahora que está disponible en PC y móviles gracias a Magic: Arena. </p>
+	<table cellpadding="10" cellspacing="10" border="1">
+		<caption>CARTAS DE MAGIC</caption>
+		<thead>
+			<tr>
+				<th colspan="2">MAGIC</th>
+			</tr>
+			<tr>
+				<th>CARTAS</th>
+				<th>TIPOS</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th rowspan="5">TIERRAS</th>
+				<td>Llanura</td>
+			</tr>
+			<tr>
+				<td>Isla</td>
+			</tr>
+			<tr>
+				<td>Pantano</td>
+			</tr>
+				<td>Montaña</td>
+			</tr>
+			<tr>
+				<td>Bosque</td>
+			</tr>
+			<tr>
+				<th rowspan="4">CRIATURAS</th>
+				<td>Guerreros</td>
+			</tr>
+			<tr>
+				<td>Sicarios</td>
+			</tr>
+			<tr>
+				<td>Bestias</td>
+			</tr>
+			<tr>
+				<td>Monstruos</td>
+			</tr>
+			<tr>
+				<th rowspan="2">ENCANTAMIENTOS</th>
+				<td>Local</td>
+			</tr>
+			<tr>
+				<td>Global</td>
+			</tr>
+			<tr>
+				<th>CONJUROS</th>
+				<td>No hay tipos</td>
+			</tr>
+			<tr>
+				<th>INSTANTÁNEOS</th>
+				<td>No hay tipos</td>
+			</tr>
+			<tr>
+				<th rowspan="4">ARTEFACTOS</th>
+				<td>Legendario</td>
+			</tr>
+			<tr>
+				<td>Criatura</td>
+			</tr>
+			<tr>
+				<td>Equipo</td>
+			</tr>
+			<tr>
+				<td>Tierra</td>
+			</tr>
+			<tr>
+				<th>PLANESWALKERS</th>
+				<td>No hay tipos</td>
+			</tr>
+			<tr>
+				<td colspan="2">¡Síguenos en nuestras redes sociales!</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
+
+			
+
+			
+			

@@ -1,0 +1,114 @@
+<!--Aunque en el pdf yo he puesto los nombres de los documentos con mayúscula, recuerda que hemos insistido durante las clases que deberían de ir en minúscula:
+marisco.html y no Marisco.html.
+Además. los enlaces no pueden llevar espacios en blanco (se sustituyen con guiones u otra equivalencia):
+pescado-fresco.html y no
+Pescado fresco.html
+Se indica que, en el tercer párrafo, hay que mantener el salto de línea y, en tu caso, no se ve. Los saltos de línea hechos en el código no se visualizan en la web, hay que poner la etiqueta <br>.
+Las celdas de la tabla donde van los días deberían de ser <th> y no <td>, ya que son las cabeceras de la fila:
+<th>Lunes a viernes</th>
+<td>08:00 a 14:00</td>
+En el pdf se indica que la fila donde van las redes sociales debe ir en el pie de la tabla. Falta la etiqueta <tfoot>.
+Quedaría así:
+</tbody>
+<tfoot>
+    <tr>
+        <td colspan="2">Más información en nuestras redes sociales.</td>
+    </tr>
+</tfoot>
+</table>-->
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Mariscos Recio, la mar al mejor precio</title>
+    </head>
+    <body>
+        <img src="./assets/images/mariscos-recio.gif"
+             alt="Mariscos Recio">
+        <h1>Mariscos Recio</h1>
+            <p>La mar, al mejor precio.</p>
+            <ul>
+                <li><a href="./index.html">Página prinicpal</a></li>
+                <li><a href="./catering.html">Catering</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+                <li><a href="./marisco.html">Marisco</a></li>
+                <li><a href="./pescado-fresco.html">Pescado fresco</a></li>
+            </ul>
+
+        <h2>Marisco</h2>
+            <img src="./assets/images/marisco.jpg"
+                 alt="Una amplia selección de marisco"
+                 width="200">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore qui ex 
+                dolorum cum error sapiente corrupti quibusdam quidem praesentium odit, 
+                debitis deserunt, ea mollitia magnam et odio temporibus assumenda cumque?</p>
+            <p>Voluptates, quas eum fuga esse perspiciatis cum aut. Doloremque corporis 
+                pariatur omnis quod cum magni quo voluptas a, nemo illo molestias suscipit sit, 
+                quibusdam ab rem et ut ipsum asperiores. </p>
+            <p>Vitae a provident deserunt, blanditiis neque voluptate delectus iste tempore 
+                temporibus?<br> 
+                Adipisci, nemo. Saepe nobis voluptatum veniam laudantium minus. Dolorem 
+                consequuntur dolorum exercitationem in vitae qui obcaecati incidunt odio 
+                accusamus.</p>
+
+        <h2>Pescado fresco</h2>
+            <img src="./assets/images/pescado-fresco.jpg"
+                 alt="Pescado fresco: del mar a su mesa, cada día"
+                 width="200">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore qui ex 
+                dolorum cum error sapiente corrupti quibusdam quidem praesentium odit, 
+                debitis deserunt, ea mollitia magnam et odio temporibus assumenda cumque?</p>
+            <p>Voluptates, quas eum fuga esse perspiciatis cum aut. Doloremque corporis 
+                pariatur omnis quod cum magni quo voluptas a, nemo illo molestias suscipit sit, 
+                quibusdam ab rem et ut ipsum asperiores. </p>
+            <p>Vitae a provident deserunt, blanditiis neque voluptate delectus iste tempore 
+                temporibus? 
+                Adipisci, nemo. Saepe nobis voluptatum veniam laudantium minus. Dolorem 
+                consequuntur dolorum exercitationem in vitae qui obcaecati incidunt odio 
+                accusamus.</p>
+
+        <h2>Catering</h2>
+            <img src="./assets/images/catering.jpg"
+                 alt="Servicio de cátering para sus eventos"
+                 width="200">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore qui ex 
+                dolorum cum error sapiente corrupti quibusdam quidem praesentium odit, 
+                debitis deserunt, ea mollitia magnam et odio temporibus assumenda cumque?</p>
+            <p>Voluptates, quas eum fuga esse perspiciatis cum aut. Doloremque corporis 
+                pariatur omnis quod cum magni quo voluptas a, nemo illo molestias suscipit sit, 
+                quibusdam ab rem et ut ipsum asperiores. </p>
+            <p>Vitae a provident deserunt, blanditiis neque voluptate delectus iste tempore 
+                temporibus? 
+                Adipisci, nemo. Saepe nobis voluptatum veniam laudantium minus. Dolorem 
+                consequuntur dolorum exercitationem in vitae qui obcaecati incidunt odio 
+                accusamus.</p>
+
+        <table cellpadding="10" cellspacing="10" border="1">
+            <thead>
+                <tr>
+                    <th colspan="2">HORARIO</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Lunes a viernes</th>
+                    <td>08:00 a 14:00</td>
+                </tr>
+                <tr>
+                    <th>Sábados</th>
+                    <td>08:00 a 15:00</td>
+                </tr>
+                <tr>
+                    <th>Domingos y festivos</th>
+                    <td>Cerrado</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Más información en nuestras redes sociales.</td>
+                </tr>
+            </tfoot>
+        </table>        
+        <p>Copyright Mariscos Recio</p>
+    </body>
+</html>

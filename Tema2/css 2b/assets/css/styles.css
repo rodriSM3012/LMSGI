@@ -1,0 +1,15 @@
+h1 {
+  color: blue;
+}
+p {
+  color: green;
+}
+/*
+li p {
+  background-color: orange;
+}
+  */
+body > p{   /*si el párrafo está dentro y directamente después del body; dentro del body pero en el primer nivel*/
+    background-color: antiquewhite;
+}
+/*body ~ p para las etiquetas que están a continuación pero fuera del body (hasta que haya otra etiqueta que pare el flujo)

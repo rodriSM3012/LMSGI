@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>nose</title>
+	</head>
+	<body>
+		<h1>Elementos varios</h1>
+		<p>A ver que nos queda en el fondo de la bolsa</p>
+		<h2>Una última lista</h2>
+		<dl>
+			<dt>Patata</dt>
+			<dd>Tubérculo que se fríe y esas cosas</dd>
+			<dt>Cebolla</dt>
+			<dd>Nos hace llorar al descuartizarla</dd>
+			<dt>Zanahoria</dt>
+			<dd>Naranja, alargada, dura y dicen que es la perdición de los conejos.</dd>
+		</dl>
+		<hr>
+		<p>Aunque no lo parezca, la etiqueta hr se utiliza de forma estructural, para separar elemntos dentro del mismo apartado.</p>
+		<strong>strong</strong><br>
+		<em>em</em><br>
+		<b>negrita</b><br>
+		<i>itallic</i><br>
+		34<sup>2</sup><br>
+		51<sub>4</sub><br>
+		

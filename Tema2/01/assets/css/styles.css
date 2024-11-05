@@ -1,0 +1,9 @@
+h1 {
+    color: #ffb325;
+    background: rgb(145, 145, 232);
+    font-size: 40px;
+    padding: 20px;
+}
+p {
+    color: red;
+}

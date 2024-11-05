@@ -1,0 +1,8 @@
+table {
+  background-color: antiquewhite;
+}
+tr:nth-child(even) td:nth-child(odd),
+tr:nth-child(odd) td:nth-child(even) {
+  background-color: black;
+}
+/*table>tr*8>td*8{ }*/

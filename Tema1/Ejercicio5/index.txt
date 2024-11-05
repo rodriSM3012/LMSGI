@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Formulario</title>
+	</head>
+	<body>
+		<h1>Envío de formulario</h1>
+		<form method="post" action="mailto:miratu@quecosas.com?Subject=Cartas%20Magic" enctype="text/plain">
+			<label for="nombre">Nombre:</label>
+			<input type="text" name="nombre" id="nombre">
+			<br>
+			<input type="text" name="apellidos" id="apellidos">
+			<label for="apellidos">Apellidos:</label>
+			<br>
+			<label for="email">
+				<input type="text" name="email" id="email">email:
+			</label>
+			<br>
+			<label for="password">Contraseña: 
+				<input type="password" name="password" id="password">	
+			</label>
+
+			<fieldset>
+				<legend>Sexo:</legend>
+				<label for="sexo-mujer">
+					<input type="radio" name="sexo" id="sexo-mujer" value="mujer">
+					Mujer
+				</label>
+				<label for="sexo-hombre">
+					<input type="radio" name="sexo" id="sexo-hombre" value="hombre">
+					Hombre
+				</label>
+				<label for="sexo-otro">
+					<input type="radio" name="sexo" id="sexo-otro" value="otro">
+					Otro
+				</label>
+			</fieldset>
+
+			<fieldset>
+				<legend>Afición:</legend>
+				<label for="juego-cartas">Juegos de cartas
+					<input type="checkbox" name="aficiones" id="juego-cartas" value="Juegos de cartas">
+				</label>
+				<br>
+				<label for="juego-tablero">Juegos de tablero
+					<input type="checkbox" name="aficiones" id="juego-tablero" value="Juegos de tablero">
+				</label>
+				<br>
+				<label for="cine">Cine
+					<input type="checkbox" name="aficiones" id="cine" value="Cine">
+				</label>
+			</fieldset>
+
+			<select name="provincia" id="provincia">
+				<option value="Asturias">Asturias</option>
+				<option value="Barcelona">Barcelona</option>
+				<option value="León" selected="selected">León</option>
+			</select>
+			<br>
+			<textarea name="comentarios" id="comentarios">Tus comentarios:</textarea>
+			<br>
+
+			<input type="reset" value="Reiniciar">
+			<input type="submit" value="Enviar">
+		</form>
+	</body>
+</html>
+		
+

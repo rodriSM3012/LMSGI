@@ -1,0 +1,71 @@
+/* 1 reset de formato*/
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+/* 2 */
+body {
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* 3 */
+main {
+  padding: 20px;
+  background-color: rgb(250, 188, 188);
+}
+/* 4 */
+section {
+  padding: 20px;
+  background-color: antiquewhite;
+}
+/* 5 */
+section header > p {
+  margin-bottom: 20px;
+}
+/* 6 */
+article {
+  background-color: greenyellow;
+  padding: 20px;
+}
+/* 7 */
+.perros {
+  background-color: rgb(255, 193, 77);
+}
+/* 8 */
+article:last-child {
+  margin-top: 20px;
+}
+/* 9 */
+article h4 {
+  border-bottom: 1px solid green;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+/* 10 */
+footer {
+  background-color: fuchsia;
+  padding: 20px;
+}
+/* 11 */
+main footer {
+  padding: 20px;
+  /*^^^ redundante por que ya se declaró todos los footers con 20 px de padding*/
+  background-color: #333;
+  color: white;
+  margin-top: 20px;
+}
+/* 12 */
+ul {
+  list-style: none;
+}
+/* 13 */
+ul li a {
+  color: red;
+}
+/* 14 */
+body > header {
+  padding: 20px;
+}

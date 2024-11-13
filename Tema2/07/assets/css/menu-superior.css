@@ -1,0 +1,31 @@
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li,
+nav ul li a {
+  width: 100%;
+}
+
+nav ul li a {
+  display: block;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  background-color: #ffc13c;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border: 1px solid #ffc13c;
+}
+
+nav ul li a {
+  transition: 0.3s;
+}
+
+nav ul li a:hover,
+  /* cambia el diseño al pasar el raton por encima */
+  nav ul li a.activo {
+  color: #ffc13c;
+  background-color: #096654;
+}

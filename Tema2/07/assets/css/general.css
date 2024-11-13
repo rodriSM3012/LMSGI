@@ -1,0 +1,47 @@
+body {
+  font-size: 16px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #096654;
+  color: #333;
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+  display: block;
+  /* para quitar el hueco que aparece entre la imagen y el titulo */
+}
+
+header h1,
+header h1 + p {
+  background-color: #ffc13c;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+header h1 {
+  font-size: 4rem;
+  text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.542);
+}
+
+header h1 + p {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: -4rem;
+  /* para quitar el hueco entre h1 y el primer p */
+  /* sobreescribe el padding y el margin */
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.542);
+}
+
+body > footer {
+  background-color: #ffc13c;
+  color: #096654;
+  padding: 3rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+}

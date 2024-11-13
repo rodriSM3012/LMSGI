@@ -1,0 +1,21 @@
+article {
+  padding: 2rem 2rem 0 2rem;
+  background-color: #ffc13c;
+}
+
+article:last-of-type {
+  /* p:lastchild -> si el ultimo hijo de esa etiqueta es p sirve pero si no, no */
+  /* p:last-of-type -> cambia el ultimo p que haya  */
+  padding-bottom: 2rem;
+}
+
+article h2 {
+  background-color: #8c1163;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+article img {
+  margin-bottom: 2rem;
+}

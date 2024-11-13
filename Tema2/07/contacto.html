@@ -9,69 +9,92 @@
         display: block;
       }
     </style>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
 
   <body>
-    <img src="./assets/images/mariscos-recio.gif" alt="Mariscos Recio" />
-    <h1>Mariscos Recio</h1>
-    <p>La mar, al mejor precio.</p>
-    <ul>
-      <li><a href="./index.html">Inicio</a></li>
-      <li><a href="./marisco.html">Marisco</a></li>
-      <li><a href="./pescado-fresco.html">Pescado fresco</a></li>
-      <li><a href="./catering.html">Catering</a></li>
-      <li><a href="./contacto.html">Contacto</a></li>
-    </ul>
-    <h2>Contacto</h2>
-    <form
-      method="post"
-      action="mailto:miraty@quecosas.com?Subject=Cartas%20Magic"
-      enctype="text/plain">
-      <label for="nombre">Nombre:
-        <input type="text" name="nombre" id="nombre" />
-      </label>
-      <label for="email">email:
-        <input type="text" name="email" id="email" />
-      </label>
-      <fieldset>
-        <legend>Marque la casilla o casillas que le interesen:</legend>
-        <label for="marisco">
-          <input
-            type="checkbox"
-            name="intereses"
-            id="marisco"
-            value="Marisco" />
-          Marisco</label>
-        <label for="pescado-fresco">
-          <input
-            type="checkbox"
-            name="intereses"
-            id="pescado-fresco"
-            value="Pescado fresco" />
-          Pescado fresco</label>
-        <label for="Catering">
-          <input
-            type="checkbox"
-            name="intereses"
-            id="catering"
-            value="Catering" />
-          Catering</label>
-      </fieldset>
+    <header>
+      <img src="./assets/images/mariscos-recio.gif" alt="Mariscos Recio" />
+      <h1>Mariscos Recio</h1>
+      <p>La mar, al mejor precio.</p>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Inicio</a></li>
+          <li><a href="./marisco.html">Marisco</a></li>
+          <li><a href="./pescado-fresco.html">Pescado fresco</a></li>
+          <li><a href="./catering.html">Catering</a></li>
+          <li><a href="./contacto.html" class="activo">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="formulario">
+        <article>
+          <h2>Contacto</h2>
+          <form
+            method="post"
+            action="mailto:miraty@quecosas.com?Subject=Cartas%20Magic"
+            enctype="text/plain"
+          >
+            <label for="nombre"
+              >Nombre:
+              <input type="text" name="nombre" id="nombre" />
+            </label>
+            <label for="email"
+              >email:
+              <input type="text" name="email" id="email" />
+            </label>
+            <fieldset>
+              <legend>Marque la casilla o casillas que le interesen:</legend>
+              <label for="marisco">
+                <input
+                  type="checkbox"
+                  name="intereses"
+                  id="marisco"
+                  value="Marisco"
+                />
+                Marisco</label
+              >
+              <label for="pescado-fresco">
+                <input
+                  type="checkbox"
+                  name="intereses"
+                  id="pescado-fresco"
+                  value="Pescado fresco"
+                />
+                Pescado fresco</label
+              >
+              <label for="Catering">
+                <input
+                  type="checkbox"
+                  name="intereses"
+                  id="catering"
+                  value="Catering"
+                />
+                Catering</label
+              >
+            </fieldset>
 
-      <label for="provincia">
-        <select name="provincia" id="provincia">
-          <option value="Asturias">Asturias</option>
-          <option value="Barcelona">Barcelona</option>
-          <option value="León">León</option>
-        </select>
-      </label>
-      <label for="comentarios">
-        <textarea name="comentarios" id="comentarios">
-Sus comentarios:</textarea>
-      </label>
-      <input type="reset" value="Reiniciar" name="reset" id="reset" />
-      <input type="submit" value="Enviar" name="submit" id="submit" />
-    </form>
-    <p>Copyright Mariscos Recio</p>
+            <label for="provincia">
+              <select name="provincia" id="provincia">
+                <option value="Asturias">Asturias</option>
+                <option value="Barcelona">Barcelona</option>
+                <option value="León">León</option>
+              </select>
+            </label>
+            <label for="comentarios">
+              <textarea name="comentarios" id="comentarios">
+Sus comentarios:</textarea
+              >
+            </label>
+            <input type="reset" value="Reiniciar" name="reset" id="reset" />
+            <input type="submit" value="Enviar" name="submit" id="submit" />
+          </form>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright Mariscos Recio</p>
+    </footer>
   </body>
 </html>

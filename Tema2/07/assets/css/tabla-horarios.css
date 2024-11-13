@@ -1,0 +1,47 @@
+.horario table {
+  width: 100%;
+  margin: 2rem auto;
+  background-color: #ffc13c;
+}
+
+.horario table thead tr {
+  color: #ffc13c;
+  background-color: #096654;
+}
+
+.horario table thead tr th,
+.horario table tfoot tr td {
+  padding: 0.5rem;
+}
+
+.horario table tbody tr {
+  transition: 0.3s;
+}
+
+.horario table tbody tr:hover {
+  transform: scale(1.2);
+  background-color: #096654;
+  color: #ffc13c;
+}
+
+.horario table tbody tr th {
+  text-align: right;
+  width: 50%;
+  padding: 0.5rem;
+  border-right: 1px solid #8c1163;
+}
+
+.horario table tbody tr td {
+  text-align: left;
+  width: 50%;
+  padding: 0.5rem;
+  border-left: 1px solid #8c1163;
+}
+
+.horario table tfoot tr td {
+  padding: 0.5rem;
+  text-align: center;
+  font-style: italic;
+  color: #ffc13c;
+  background-color: #096654;
+}

@@ -30,10 +30,11 @@ h2 {
 
 img {
   width: 100%;
+  display: block;
 }
 
 header {
-  margin: 0 2rem 0;
+  margin: 0 2rem;
   padding: 2rem;
   border: 2rem solid #3d99e2;
   background-color: #649fb6;
@@ -64,22 +65,28 @@ table {
   background-color: white;
 }
 
-table td {
+table tr td {
   width: 25%;
   padding: 1rem;
+  vertical-align: top;
 }
 
-table img {
+/* no es necesario en este caso pero hay que ponerla si se pide */
+table td img {
   width: 100%;
 }
 
-table h2 {
+table tr th h2 {
   text-align: center;
 }
 
-table h3 {
+table tr th h3 {
   margin-bottom: 1.25rem;
   font-size: 1.25rem;
+}
+
+table tr:last-child td {
+  transition: 0.3s;
 }
 
 table tr:last-child td:hover {
@@ -89,4 +96,5 @@ table tr:last-child td:hover {
 table tr:last-child td:hover h3,
 table tr:last-child td:hover p {
   color: white;
+  transition: 0.3s;
 }

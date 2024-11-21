@@ -1,0 +1,18 @@
+section > h2 {
+  font-size: 4rem;
+  color: white;
+  padding: 5rem 1rem 0.5rem;
+  text-align: right;
+}
+
+section.comics > h2 {
+  background-color: #1297ff;
+}
+
+section.peliculas > h2 {
+  background-color: #cd3f8b;
+}
+
+section.juegos > h2 {
+  background-color: #86b733;
+}

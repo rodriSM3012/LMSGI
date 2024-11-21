@@ -1,0 +1,51 @@
+table {
+  border-collapse: collapse;
+}
+
+table tr td img {
+  transition: 0.4s;
+}
+
+table tr td img:hover {
+  transform: scale(1.2);
+}
+
+table tr td article {
+  padding: 1rem;
+}
+
+table tr td article header h3 {
+  color: white;
+  padding: 0.5rem;
+}
+
+section.comics table tr td article.novedad,
+section.comics table tr td article h3 {
+  background-color: #1297ff;
+}
+
+section.peliculas table tr td article.novedad,
+section.peliculas table tr td article h3 {
+  background-color: #cd3f8b;
+}
+
+section.juegos table tr td article.novedad,
+section.juegos table tr td article h3 {
+  background-color: #86b733;
+}
+
+table tr td article p {
+  margin: 1.5rem 0.5rem 0.5rem;
+}
+
+table tr td article p:last-child {
+  margin: 0;
+  text-align: right;
+  background-color: white;
+  padding: 0.25rem 0.5rem;
+}
+
+table tr td article p a {
+  text-decoration: none;
+  color: #cd3f8b;
+}

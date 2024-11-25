@@ -1,0 +1,18 @@
+article {
+  padding: 1rem;
+}
+
+section.comics article.novedad,
+section.comics article h3 {
+  background-color: #1297ff;
+}
+
+section.peliculas article.novedad,
+section.peliculas article h3 {
+  background-color: #cd3f8b;
+}
+
+section.juegos article.novedad,
+section.juegos article h3 {
+  background-color: #86b733;
+}

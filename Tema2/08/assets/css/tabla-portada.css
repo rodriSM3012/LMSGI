@@ -10,7 +10,8 @@ table tr td img:hover {
   transform: scale(1.2);
 }
 
-table tr td article {
+/* casa */
+/* table tr td article {
   padding: 1rem;
 }
 
@@ -48,4 +49,41 @@ table tr td article p:last-child {
 table tr td article p a {
   text-decoration: none;
   color: #cd3f8b;
+} */
+
+/*clase*/
+table tr td h3 {
+  color: white;
+  padding: 0.25rem 0.75rem;
+}
+
+table tr td p {
+  padding: 0.25rem 0.75rem;
+}
+
+table tr td a {
+  text-decoration: none;
+  color: #cd3f8b;
+}
+
+table tr td a:hover {
+  color: #1297ff;
+}
+
+table tr td p:last-of-type {
+  text-align: right;
+  background-color: white;
+}
+
+/* se adapta a la pantalla pero no se modifica el diseño de la pagina  */
+/* se pueden poner varios  */
+@media (max-width: 768px) {
+  table tr {
+    display: flex;
+    flex-direction: column;
+  }
+
+  table tr td img:hover {
+    transform: none;
+  }
 }

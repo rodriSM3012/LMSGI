@@ -1,0 +1,42 @@
+header nav ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+head nav ul * {
+  margin: 0;
+  padding: 0;
+}
+
+headernav ul li {
+  width: 350px;
+}
+
+header nav ul li a {
+  width: 100%;
+  display: block;
+  color: white;
+  background-color: crimson;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px;
+}
+
+header nav ul li a:hover {
+  background-color: white;
+  color: crimson;
+}
+
+@media (max-width: 550px) {
+  header nav ul {
+    flex-direction: column;
+  }
+
+  header nav ul li {
+    width: 100%;
+  }
+}

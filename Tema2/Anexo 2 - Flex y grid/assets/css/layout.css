@@ -1,0 +1,45 @@
+body {
+  display: grid;
+  grid-template-areas:
+    "cabecera cabecera cabecera"
+    "lateral principal pie";
+  grid-template-columns: 350px 1fr 350px;
+}
+
+/* asignar los nombres que se usan arriba ^^^ */
+header {
+  grid-area: cabecera;
+}
+
+.cuatro {
+  grid-area: lateral;
+}
+
+main {
+  grid-area: principal;
+}
+
+footer {
+  grid-area: pie;
+}
+
+@media (max-width: 1200px) {
+  body {
+    grid-template-areas:
+      "cabecera cabecera"
+      "lateral principal"
+      ". pie";
+    grid-template-columns: 350px 1fr;
+  }
+}
+
+@media (max-width: 1000px) {
+  body {
+    grid-template-areas:
+      "cabecera"
+      "principal"
+      "lateral"
+      "pie";
+    grid-template-columns: 1fr;
+  }
+}

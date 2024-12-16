@@ -1,0 +1,28 @@
+footer nav ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer nav ul * {
+  margin: 0;
+  padding: 0;
+}
+
+footer nav ul li {
+  width: 100%;
+}
+
+@media (max-width: 1200px) {
+  footer nav ul {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 1000px) {
+  footer nav ul {
+    flex-direction: column;
+  }
+}

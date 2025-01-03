@@ -1,0 +1,6 @@
+body > header img {
+  width: 400px;
+  margin: 7rem auto;
+
+  filter: drop-shadow(7px 7px 7px rgba(0, 0, 0, 0.7));
+}

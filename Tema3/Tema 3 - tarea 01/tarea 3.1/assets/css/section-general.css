@@ -1,0 +1,22 @@
+main ul {
+  list-style: none;
+
+  display: grid;
+  /* grid-template-columns: 20% 907px 1fr; */
+  grid-template-columns: 21% auto 19%;
+
+  padding: 48px;
+  background-color: #222;
+}
+
+ul li section h2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+a.comprar, a.info {
+    font-family: "Sofia Sans Extra Condensed", serif;
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+}

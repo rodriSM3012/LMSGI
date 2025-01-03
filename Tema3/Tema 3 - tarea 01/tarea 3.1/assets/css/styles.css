@@ -1,0 +1,35 @@
+@import url(./reset.css);
+/* ✔ */
+
+@import url(./global.css);
+/* ✔ */
+
+@import url(./menu-superior.css);
+/* 
+> poner componentes del menu a la izq
+*/
+
+@import url(./header.css);
+/* ✔ */
+
+@import url(./portada.css);
+/* ✔ */
+
+@import url(./section-general.css);
+/* ✔ */
+
+@import url(./section-recomendados.css);
+/*
+> ajustar anchura <a> para que coincida con <li> ✔ -> display block
+*/
+
+@import url(./section-agenda.css);
+/*
+> hacer que <a> de comprar ocupe mas a la derecha
+*/
+
+@import url(./section-novedades.css);
+/* ✔ */
+
+@import url(./footer.css);
+/* ✔ */

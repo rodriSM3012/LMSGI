@@ -1,0 +1,52 @@
+ul li section.recomendados {
+  margin-right: 48px;
+}
+
+section.recomendados article img {
+  object-fit: cover;
+
+  aspect-ratio: 1 / 1;
+  /* para hacer la imagen cuadrada */
+}
+
+section.recomendados article h3 {
+  margin: 5px 0 2rem 0;
+
+  font-size: 36px;
+}
+
+section.recomendados ul {
+  display: flex;
+
+  padding: 0;
+  margin-top: 1rem;
+}
+
+section.recomendados ul li {
+  width: 100%;
+  /* text-align: center; */
+
+  /* padding: 18px 0 16px 0;
+  background-color: #ff00b3; */
+
+  /* transition: 0.4s; */
+}
+
+section.recomendados ul li a {
+  display: block;
+  /* display block ajusta el ancho de <a> para que ocupe lo maximo */
+
+  /* padding: 18px 0 16px 0; */
+
+  /* width: 100%; */
+  text-align: center;
+
+  padding: 18px 0 16px 0;
+  background-color: #ff00b3;
+
+  transition: 0.4s;
+}
+
+section.recomendados ul li a:hover {
+  background-color: #444;
+}

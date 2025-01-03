@@ -1,0 +1,56 @@
+footer {
+  background-color: #222;
+  margin-top: 48px;
+
+  position: relative;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+
+  width: 30%;
+  padding: 48px;
+  padding-bottom: 28px;
+
+  position: relative;
+}
+
+footer ul li {
+  margin-right: 1.5rem;
+}
+
+footer ul li a img {
+  width: 70px;
+  transition: 0.4s;
+}
+
+/* footer ul li a img:first-of-type {
+    position: relative;
+}
+
+footer ul li a img.hover {
+    position: absolute;
+} */
+
+footer ul li a img.hover {
+  margin-top: -70px;
+  opacity: 0;
+  /* para hacer la imagen al pasar el raton por encima invisible por defecto */
+}
+
+footer ul li a img.hover:hover {
+  opacity: 100%;
+}
+
+footer > img {
+   height: 70px; 
+   object-fit: scale-down;
+   width: 30%;
+
+   position: absolute;
+   top: 0;
+   right: 0;
+
+   margin: 48px;
+}

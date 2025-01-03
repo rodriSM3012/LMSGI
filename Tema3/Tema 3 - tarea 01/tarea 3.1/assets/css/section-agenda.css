@@ -1,0 +1,46 @@
+/* section.agenda ul {
+    display: flex;
+    flex-direction: column;
+} */
+
+/* section.agenda table {
+  width: 100%;
+  border-collapse: collapse;
+} */
+
+section.agenda table tbody tr td img {
+  width: 140px;
+  margin: 0 8px 18px 0;
+
+  aspect-ratio: 1 / 1;
+  /* para tener proporcion cuadrada */
+  object-fit: cover;
+  /* para que la imagen no se deforme al cambiar la proporcion */
+}
+
+section.agenda table tbody tr td {
+  vertical-align: top;
+  /* para hacer que el texto empiece arriba en la celda */
+}
+
+section.agenda h3 {
+  font-size: 26px;
+}
+
+section.agenda a {
+  display: block;
+
+  width: 100%;
+  text-align: center;
+
+  padding: 18px 0 16px 0;
+  background-color: #ff00b3;
+
+  transition: 0.4s;
+
+  margin-top: 8px;
+}
+
+section.agenda a:hover {
+    background-color: #444;
+}

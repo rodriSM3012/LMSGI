@@ -1,0 +1,28 @@
+body {
+  font-size: 17px;
+  font-family: "Arimo", serif;
+
+  color: white;
+  background-color: #222;
+  /* color: #444; */
+  /* color: #ff00b3; */
+
+  background-image: url(../images/concierto-fondo.avif);
+  background-attachment: fixed;
+
+  margin: 0 200px;
+}
+
+h2, h3 {
+  font-family: "Sofia Sans Extra Condensed", serif;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+body p {
+  line-height: 22px;
+  /* para ajustar la distancia entre lineas */
+}

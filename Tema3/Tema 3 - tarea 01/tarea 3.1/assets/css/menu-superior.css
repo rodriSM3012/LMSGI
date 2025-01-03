@@ -1,0 +1,41 @@
+nav {
+  margin: 48px auto;
+}
+
+nav ul {
+  list-style: none;
+  background-color: #222;
+  
+  display: flex;
+  justify-content: left;
+}
+
+nav ul li {
+  width: 100%;
+}
+
+nav ul li a {
+  display: block;
+
+  font-family: "Sofia Sans Extra Condensed", serif;
+  font-size: 30px;
+
+  background-color: #222;
+  color: white;
+
+  text-align: center;
+  text-decoration: none;
+
+  padding: 0.5rem;
+  margin-right: 8px;
+
+  transition: 0.4s;
+}
+
+nav ul li a.activo {
+  background-color: #ff00b3;
+}
+
+nav ul li a:hover {
+  background-color: #ff00b3;
+}

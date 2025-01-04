@@ -25,7 +25,7 @@
 
 @import url(./section-agenda.css);
 /*
-> hacer que <a> de comprar ocupe mas a la derecha
+> hacer que <a> de comprar ocupe mas a la derecha ✔ -> width: 100%; en <table>
 */
 
 @import url(./section-novedades.css);

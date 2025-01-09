@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <style>
+      ul {
+        background-color: #ccc;
+        list-style: none;
+        display: flex;
+        flex-direction: column-reverse;
+        flex-direction: row-reverse;
+        flex-direction: column;
+        flex-direction: row;
+
+        /* los pone en el centro */
+        justify-content: center;
+        justify-content: end;
+        justify-content: space-evenly;
+        justify-content: space-around;
+        justify-content: space-between;
+
+        align-items: center;
+        align-items: end;
+
+        flex-wrap: wrap;
+      }
+
+      ul li {
+        width: 30%;
+        min-width: 400px;
+      }
+
+      ul li:nth-child(odd) {
+        background-color: #666;
+      }
+
+      ul li a {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+    </ul>
+  </body>
+</html>

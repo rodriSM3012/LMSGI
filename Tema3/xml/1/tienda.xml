@@ -1,0 +1,12 @@
+<shop>
+    <hombre>
+        <pantalones>
+            <pantalon>
+                <colour></colour>
+                <talla></talla>
+            </pantalon>
+        </pantalones>
+    </hombre>
+    <mujer>
+    </mujer>
+</shop>

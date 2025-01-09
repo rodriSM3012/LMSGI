@@ -1,0 +1,9 @@
+<!ELEMENT loslibrosdepepe (libros)>
+<!ELEMENT libros (libro)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT paginas (#PCDATA)>
+<!ELEMENT edicion (#PCDATA)>
+<!ATTLIST edicion especial CDATA #REQUIRED>
+<!ELEMENT precio (#PCDATA)>

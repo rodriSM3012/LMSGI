@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-model href="index.dtd" type="application/xml-dtd"?> -->
+<loslibrosdepepe>
+    <libros>
+        <libro>
+            <titulo>El Señor de los Anillos</titulo>
+            <autor>Tolkien</autor>
+            <genero>Fantasia</genero>
+            <paginas>3458</paginas>
+            <edicion especial="50 aniversario">Tapa dura</edicion>
+            <precio>50</precio>
+        </libro>
+        <libro>
+            <titulo>Harry Potter</titulo>
+            <autor>J. K. Rowling</autor>
+            <genero>Fantasia</genero>
+            <paginas>2450</paginas>
+            <edicion especial="no">Tapa blanda</edicion>
+            <precio>45</precio>
+        </libro>
+        <libro>
+            <titulo></titulo>
+            <autor></autor>
+        </libro>
+    </libros>
+    <revistas>
+        <revista>
+            <titulo>Revista de la semana</titulo>
+            <precio>2.50</precio>
+        </revista>
+    </revistas>
+</loslibrosdepepe>

@@ -1,0 +1,9 @@
+dinahosting
+comprar -> prueba gratuita
+opcion dominio -> quiero subdominio de pureba 
+subdominio asociado -> rodrigosanchez
+
+hosting -> ftp -> configurar usuarios (nombre)
+
+filezilla -> primer icono arriba izq (gestor de sitios) -> nuevo sitio 
+configurar segun lo de hosting de dinahosting

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Musicall</title>
+        <description>algo</description>
+        <link>http://rsm3012.endinahosting.com</link>
+        <item>
+            <title>Conciertos</title>
+            <description>asdfghjkl</description>
+            <link>http://rsm3012.endinahosting.com/conciertos.html</link>
+            <pubDate>Mon, 27 Jan 2025 09:04:15 +0100</pubDate>
+        </item>
+    </channel>
+</rss>

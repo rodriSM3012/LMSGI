@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <!-- siempre tiene que haber title + description + link + item-->
+        <!-- fecha de publicaion es necesario en los items-->
+        <title>cosas</title>
+        <description>Visita nuestra web y encuentra tu moto o tu accesorio</description>
+        <link>http://rsm3012.endinahosting.com</link>
+        <item>
+            <title>Nuestras motos en promoción</title>
+            <description>Aquí están nuestras motos en promoción</description>
+            <link>http://rsm3012.endinahosting.com/motos-promocion.hmtl</link>
+            <!-- pudDate tiene que escribirse asi -->
+            <pubDate>Thu, 23 Jan 2025 12:13:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Nuestras motos en ofera</title>
+            <description>Aquí están nuestras motos en oferta</description>
+            <link>http://rsm3012.endinahosting.com/motos-ocasion.hmtl</link>
+            <pubDate>Thu, 23 Jan 2025 12:13:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Nuestra ropa disponible</title>
+            <description>Aquí están nuestras prendas disponibles</description>
+            <link>http://rsm3012.endinahosting.com/ropa.hmtl</link>
+            <pubDate>Thu, 23 Jan 2025 12:13:00 +0100</pubDate>
+        </item>
+    </channel>
+</rss>

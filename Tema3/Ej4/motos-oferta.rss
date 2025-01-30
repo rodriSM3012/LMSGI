@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Nuestras motos en oferta</title>
+        <description>Aquí podrás ver nuestras motos en oferta, con garantía...</description>
+        <link>http://rsm3012.endinahosting.com</link>
+        <item>
+            <title>Moto en oferta 01</title>
+            <description>Mi primera moto en oferta, chispas</description>
+            <link>http://rsm3012.endinahosting.com/motos-ocasion/moto-ocasion-01.html</link>
+            <pubDate>Wed, 22 Jan 2025 12:50:41 +0100</pubDate>
+        </item>
+    </channel>
+</rss>

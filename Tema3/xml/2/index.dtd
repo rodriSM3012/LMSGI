@@ -1,0 +1,11 @@
+<!ELEMENT libreria (libros,revistas)>
+<!ELEMENT libros (libro+)>
+<!ELEMENT libro (titulo,autor,paginas?,editorial,precio)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT paginas (#PCDATA)>
+<!ELEMENT editorial (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ATTLIST precio moneda NMTOKEN #IMPLIED>
+<!ELEMENT revistas (revista)>
+<!ELEMENT revista (#PCDATA)>

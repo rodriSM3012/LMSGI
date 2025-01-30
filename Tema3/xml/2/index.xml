@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libreria SYSTEM "index.dtd">
+<libreria>
+    <libros>
+        <libro>
+            <titulo>La Biblia</titulo>
+            <autor>Varios</autor>
+            <paginas>3254</paginas>
+            <editorial>Libros La Fe</editorial>
+            <precio moneda="euros">35</precio>
+        </libro>
+        <libro>
+            <titulo>Harry Potter</titulo>
+            <autor>La Innombrable</autor>
+            <editorial>Salamandra</editorial>
+            <precio>50</precio>
+        </libro>
+    </libros>
+    <revistas>
+        <revista>patata</revista>
+    </revistas>
+</libreria>

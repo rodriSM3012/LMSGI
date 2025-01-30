@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Todo sobre las cartas de artefactos Magix de Gathering, The Lost Caverns of Ixalan</title>
+        <description>Aquí iria la descripción sobre que son las tarjetas de artefactos y eso.</description>
+        <link>http://cualquiercosa.endinahosting.com/artefactos.html</link>
+        <language>es</language>
+        <item>
+            <title>Maldición</title>
+            <description>¡Rayos, truenos y centellas!</description>
+            <link>http://cualquiercosa.endinahosting.com/maldicion.html</link>
+            <pubDate>Wed, 24 Jan 2024 12:00:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Posesión</title>
+            <description>Poseido, poseso.</description>
+            <link>http://cualquiercosa.endinahosting.com/posesion.html</link>
+            <pubDate>Thu, 25 Jan 2024 12:30:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Deformación</title>
+            <description>Como lo que estamos estudiando: deformación profesional.</description>
+            <link>http://cualquiercosa.endinahosting.com/deformacion.html</link>
+            <pubDate>Fri, 26 Jan 2024 13:30:00 +0100</pubDate>
+        </item>
+    </channel>
+</rss>

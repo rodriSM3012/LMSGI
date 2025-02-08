@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiendaAnimales SYSTEM "index.dtd">
+<tiendaAnimales>
+    <terrestres>
+        <animales>
+            <especie></especie>
+            <origen continente=""></origen>
+            <descripcion></descripcion>
+            <precio></precio>
+            <sexo></sexo>
+            <color></color>
+            <pack></pack>
+            <transporte></transporte>
+            <!-- <seguro></seguro> -->
+            <!-- <descuento></descuento> -->
+        </animales>
+        <animales>
+            <especie></especie>
+            <origen continente=""></origen>
+            <descripcion></descripcion>
+            <precio moneda=""></precio>
+            <color></color>
+            <color></color>
+            <!-- <transporte></transporte> -->
+            <seguro></seguro>
+            <!-- <descuento></descuento> -->
+        </animales>
+        <animales>
+            <especie></especie>
+            <origen continente=""></origen>
+            <descripcion></descripcion>
+            <precio></precio>
+            <color></color>
+            <color></color>
+            <color></color>
+            <!-- <transporte></transporte> -->
+            <!-- <seguro></seguro> -->
+            <descuento importe=""></descuento>
+        </animales>
+    </terrestres>
+    <acuaticos>
+        <animalesAcuaticos>
+        <especie></especie>
+            <origen continente=""></origen>
+            <descripcion></descripcion>
+            <precio></precio>
+            <sexo></sexo>
+            <color></color>
+            <pack></pack>
+            <transporte></transporte>
+            <!-- <seguro></seguro> -->
+            <!-- <descuento></descuento> -->
+            <medio elemento="salada"></medio>
+        </animalesAcuaticos>
+    </acuaticos>
+</tiendaAnimales>

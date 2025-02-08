@@ -1,0 +1,24 @@
+<!ELEMENT tiendaAnimales (terrestres, acuaticos)>
+<!ELEMENT terrestres (animales+)>
+<!ELEMENT acuaticos (animalesAcuaticos+)>
+<!ELEMENT animales (especie, origen, descripcion, precio, sexo?, color+, pack*, (transporte | seguro | descuento))>
+<!ELEMENT especie (#PCDATA)>
+<!ELEMENT origen (#PCDATA)>
+<!ATTLIST origen continente CDATA #REQUIRED>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ATTLIST precio moneda CDATA #IMPLIED>
+
+<!ELEMENT sexo (#PCDATA)> <!-- opcional -->
+<!ELEMENT color (#PCDATA)> <!-- 1 o mas -->
+<!ELEMENT pack (#PCDATA)> <!-- 0,1 o mas de 1-->
+
+<!-- solo puede haber 1 de los siguientes 3-->
+<!ELEMENT transporte (#PCDATA)>
+<!ELEMENT seguro (#PCDATA)>
+<!ELEMENT descuento (#PCDATA)>
+<!ATTLIST descuento importe CDATA #REQUIRED>
+
+<!ELEMENT animalesAcuaticos (especie, origen, descripcion, precio, sexo?, color+, pack*, (transporte | seguro | descuento), medio)>
+<!ELEMENT medio EMPTY>
+<!ATTLIST medio elemento CDATA #FIXED "salada">

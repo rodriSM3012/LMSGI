@@ -1,0 +1,18 @@
+<!ELEMENT tiendaDeRopa (hombre, mujer)>
+<!ELEMENT hombre (prenda+) >
+<!ELEMENT mujer (prenda+)>
+<!ELEMENT prenda (nombre, descripcion, precio, color+, talla*, descuento?, (envioGratuito | opcionADevolucion | dosPorUno))>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ATTLIST precio moneda CDATA #IMPLIED>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT talla (#PCDATA)>
+
+<!ELEMENT descuento (#PCDATA)>
+<!ATTLIST descuento importe CDATA #REQUIRED>
+
+<!ELEMENT envioGratuito (#PCDATA)>
+<!ELEMENT opcionADevolucion (#PCDATA)>
+<!ELEMENT dosPorUno (#PCDATA)>

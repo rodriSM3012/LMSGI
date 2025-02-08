@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiendaDeRopa SYSTEM "tienda-de-ropa.dtd">
+<tiendaDeRopa>
+    <hombre>
+        <prenda>
+            <nombre>Camisa de vestir</nombre>
+            <descripcion>Camisa de vestir de algodón</descripcion>
+            <precio moneda="€">16.99</precio>
+            <color>Blanco</color>
+            <talla>M</talla>
+            <talla>L</talla>
+            <talla>XL</talla>
+            <dosPorUno>Si</dosPorUno>
+        </prenda>
+        <prenda>
+            <nombre>Pantalones vaqueros</nombre>
+            <descripcion>Pantalones vaqueros ajustados</descripcion>
+            <precio>49.99</precio>
+            <color>Azul</color>
+            <color>Negro</color>
+            <descuento importe="4.99">10%</descuento>
+            <opcionADevolucion>30 días</opcionADevolucion>
+        </prenda>
+    </hombre>
+    <mujer>
+        <prenda>
+            <nombre>Vestido de verano</nombre>
+            <descripcion>Vestido de verano con estampado floral</descripcion>
+            <precio moneda="$">39.99</precio>
+            <color>Rojo</color>
+            <color>Verde</color>
+            <talla>M</talla>
+            <opcionADevolucion>14 días</opcionADevolucion>
+        </prenda>
+        <prenda>
+            <nombre>Zapatos de tacón</nombre>
+            <descripcion>Zapatos de tacón alto de cuero</descripcion>
+            <precio moneda="€">53.99</precio>
+            <color>Negro</color>
+            <talla>36</talla>
+            <talla>38</talla>
+            <talla>40</talla>
+            <envioGratuito>Si</envioGratuito>
+        </prenda>
+    </mujer>
+</tiendaDeRopa>

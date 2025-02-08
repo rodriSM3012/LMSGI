@@ -21,4 +21,4 @@
 
 <!ELEMENT animalesAcuaticos (especie, origen, descripcion, precio, sexo?, color+, pack*, (transporte | seguro | descuento), medio)>
 <!ELEMENT medio EMPTY>
-<!ATTLIST medio elemento CDATA #FIXED "salada">
+<!ATTLIST medio elemento (salada) #REQUIRED>
